@@ -8,9 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject private var dieController = Dies()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView {
+            
+            RollDiceView()
+                       .tabItem {
+                               Label("Roll Dice", systemImage: "die.face.4")
+                       }.environmentObject(dieController)
+            HistoryView()
+                       .tabItem {
+                           Label("History", systemImage: "text.book.closed")
+                       }.environmentObject(dieController)
+            }
     }
 }
 

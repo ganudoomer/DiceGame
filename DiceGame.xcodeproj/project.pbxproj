@@ -11,6 +11,10 @@
 		22FC32FC279EF8C000DF72A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC32FB279EF8C000DF72A7 /* ContentView.swift */; };
 		22FC32FE279EF8C100DF72A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FC32FD279EF8C100DF72A7 /* Assets.xcassets */; };
 		22FC3301279EF8C100DF72A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FC3300279EF8C100DF72A7 /* Preview Assets.xcassets */; };
+		22FC3308279EFB8C00DF72A7 /* RollDiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC3307279EFB8C00DF72A7 /* RollDiceView.swift */; };
+		22FC330A279F14AE00DF72A7 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC3309279F14AE00DF72A7 /* HistoryView.swift */; };
+		22FC330E279FAD1300DF72A7 /* DiceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC330D279FAD1300DF72A7 /* DiceController.swift */; };
+		22FC3310279FAED400DF72A7 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC330F279FAED400DF72A7 /* FileManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		22FC32FB279EF8C000DF72A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		22FC32FD279EF8C100DF72A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22FC3300279EF8C100DF72A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22FC3307279EFB8C00DF72A7 /* RollDiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollDiceView.swift; sourceTree = "<group>"; };
+		22FC3309279F14AE00DF72A7 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		22FC330D279FAD1300DF72A7 /* DiceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceController.swift; sourceTree = "<group>"; };
+		22FC330F279FAED400DF72A7 /* FileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				22FC32F9279EF8C000DF72A7 /* DiceGameApp.swift */,
 				22FC32FB279EF8C000DF72A7 /* ContentView.swift */,
+				22FC330D279FAD1300DF72A7 /* DiceController.swift */,
+				22FC330F279FAED400DF72A7 /* FileManager.swift */,
+				22FC3307279EFB8C00DF72A7 /* RollDiceView.swift */,
+				22FC3309279F14AE00DF72A7 /* HistoryView.swift */,
 				22FC32FD279EF8C100DF72A7 /* Assets.xcassets */,
 				22FC32FF279EF8C100DF72A7 /* Preview Content */,
 			);
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22FC3308279EFB8C00DF72A7 /* RollDiceView.swift in Sources */,
+				22FC330A279F14AE00DF72A7 /* HistoryView.swift in Sources */,
 				22FC32FC279EF8C000DF72A7 /* ContentView.swift in Sources */,
+				22FC3310279FAED400DF72A7 /* FileManager.swift in Sources */,
+				22FC330E279FAD1300DF72A7 /* DiceController.swift in Sources */,
 				22FC32FA279EF8C000DF72A7 /* DiceGameApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
